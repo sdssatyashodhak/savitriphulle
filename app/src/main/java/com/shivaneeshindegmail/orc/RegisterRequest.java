@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RegisterRequest extends StringRequest{
-    private static final String REGISTER_REQUEST_URL ="http://vjtiorc.freeiz.com/aconnectreg.php";
+    private static final String REGISTER_REQUEST_URL ="http://tradersdiary.comxa.com/andro/aconnectreg.php";
     private Map<String,String> params;
 
     public RegisterRequest(String fullname, int id, String pass, String course, int date, int month, int year, String add, String gender, String cast, String from, String phon , String email, String ans,

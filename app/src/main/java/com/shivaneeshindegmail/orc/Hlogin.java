@@ -26,11 +26,14 @@ public class Hlogin extends AppCompatActivity {
     private Button btnLinkToForgot;
     private EditText inputEmail;
     private EditText inputPassword;
+    private Session session;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+
+        session = new Session(this);
 
         final EditText inputEmail = (EditText) findViewById(R.id.idno);
         final EditText inputPassword = (EditText) findViewById(R.id.password);
@@ -38,15 +41,18 @@ public class Hlogin extends AppCompatActivity {
         final Button btnLinkToRegister = (Button) findViewById(R.id.btnLinkToRegisterScreen);
         final Button btnLinkToForgot = (Button) findViewById(R.id.btnLinkToForgotPasswordScreen);
 
+        if(session.loggedin()){
+            Intent intent= new Intent(Hlogin.this,ActivityMain.class);
+            Hlogin.this.startActivity(intent);
+        }
 
         // Link to Register Screen
         btnLinkToRegister.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),
-                        Registration.class);
+                        Hregistration.class);
                 startActivity(i);
-                finish();
             }
         });
 
@@ -57,7 +63,6 @@ public class Hlogin extends AppCompatActivity {
                 Intent i = new Intent(getApplicationContext(),
                         ForgotPassword.class);
                 startActivity(i);
-                finish();
             }
         });
 
@@ -78,11 +83,16 @@ public class Hlogin extends AppCompatActivity {
                             boolean success= jsonResponse.getBoolean("success");
 
                             if(success){
-                                int id = jsonResponse.getInt("St_id");
+                                int id =Integer.parseInt(jsonResponse.getString("St_id"));
                                 String starting_station=jsonResponse.getString("starting_station");
                                 String dob=jsonResponse.getString("St_DOB");
 
-                                Intent intent= new Intent(Hlogin.this,Railwayform.class);
+                                session.setLoggedin(true);
+                                session.setId(id);
+                                session.setdob(dob);
+                                session.setstation(starting_station);
+
+                                Intent intent= new Intent(Hlogin.this,ActivityMain.class);
                                 intent.putExtra("id",id);
                                 intent.putExtra("DOB",dob);
                                 intent.putExtra("starting_station",starting_station);

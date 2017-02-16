@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class RailwayRequest extends StringRequest {
 
-    private static final String REGISTER_REQUEST_URL ="http://vjtiorc.freeiz.com/acrconnection.php";
+    private static final String REGISTER_REQUEST_URL ="http://tradersdiary.comxa.com/andro/acrconnection.php";
     private Map<String,String> params;
 
     public RailwayRequest(int id, String starting_station , String DOB, String ticket, String pclass, String pestation, String vovno, String estation, String period,

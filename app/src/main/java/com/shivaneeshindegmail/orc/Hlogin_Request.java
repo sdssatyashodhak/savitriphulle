@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class Hlogin_Request extends StringRequest{
 
-    private static final String LOGIN_REQUEST_URL ="http://www.vjtiorc.freeiz.com/anewFirstpage.php";
+    private static final String LOGIN_REQUEST_URL ="http://tradersdiary.comxa.com/andro/anewFirstpage.php";
     private Map<String,String> params;
 
     public Hlogin_Request(int id,String email,Response.Listener<String>listener){

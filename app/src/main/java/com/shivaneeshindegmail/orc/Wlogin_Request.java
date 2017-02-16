@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class Wlogin_Request extends StringRequest{
 
-    private static final String LOGIN_REQUEST_URL ="http://www.vjtiorc.freeiz.com/anewFirstpage.php";
+    private static final String LOGIN_REQUEST_URL ="http://tradersdiary.comxa.com/andro/anewFirstpage.php";
     private Map<String,String> params;
 
     public Wlogin_Request(int id,String email,Response.Listener<String>listener){
@@ -23,6 +23,5 @@ public class Wlogin_Request extends StringRequest{
     public Map<String,String> getParams(){
         return params;
     }
-
 
 }

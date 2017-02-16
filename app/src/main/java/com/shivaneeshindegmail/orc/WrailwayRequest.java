@@ -1,6 +1,5 @@
 package com.shivaneeshindegmail.orc;
 
-
 import com.android.volley.Response;
 import com.android.volley.toolbox.StringRequest;
 
@@ -12,7 +11,7 @@ import java.util.Map;
  */
 public class WrailwayRequest extends StringRequest {
 
-    private static final String REGISTER_REQUEST_URL ="http://vjtiorc.freeiz.com/awcrconnection.php";
+    private static final String REGISTER_REQUEST_URL ="http://tradersdiary.comxa.com/andro/awcrconnection.php";
     private Map<String,String> params;
 
     public WrailwayRequest(int id, String starting_station , String DOB, String ticket, String pclass, String pestation, String estation, String period,

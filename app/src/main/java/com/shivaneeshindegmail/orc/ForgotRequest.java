@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ForgotRequest  extends StringRequest{
-    private static final String REGISTER_REQUEST_URL ="http://vjtiorc.freeiz.com/aforgot.php";
+    private static final String REGISTER_REQUEST_URL ="http://tradersdiary.comxa.com/andro/aconnectf.php";
     private Map<String,String> params;
 
     public ForgotRequest(int id,  String ans, String npass , Response.Listener<String>listener){
