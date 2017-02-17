@@ -39,11 +39,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint"/>
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white"/>
 
             <EditText
                 android:inputType="textPersonName"
@@ -54,11 +53,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint" />
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white" />
 
             <EditText
                 android:id="@+id/dob"
@@ -67,11 +65,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint"
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white"
                 android:hint="City" />
 
             <EditText
@@ -81,11 +78,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint"
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white"
                 android:hint="Address" />
 
             <EditText
@@ -94,11 +90,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint"
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white"
                 android:inputType="textPassword"
                 android:hint="Password"
                 android:id="@+id/pass" />
@@ -111,11 +106,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint"
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white"
                 android:hint="Contact Number" />
 
             <EditText
@@ -126,11 +120,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint"
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white"
                 android:hint="Email Id" />
 
             <TextView
@@ -242,11 +235,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint"/>
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white"/>
 
 
             <EditText
@@ -258,11 +250,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint"/>
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white"/>
 
             <EditText
                 android:inputType="number"
@@ -273,12 +264,21 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint" />
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white" />
 
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Course"
+                android:textColor="#f7f7f7"
+                android:layout_above="@+id/radioButton"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4" />
 
             <EditText
                 android:inputType="textPersonName"
@@ -289,11 +289,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint" />
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white" />
 
             <TextView
                 android:text="What is your favorit food"
@@ -310,11 +309,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/input_register_bg"
                 android:padding="10dp"
-                android:singleLine="true"
-                android:textColor="@color/input_register"
-                android:textColorHint="@color/input_register_hint"
+                android:textColor="#f7f7f7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/white"
                 android:hint="Favourite food" />
 
             <Button

@@ -23,11 +23,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Previous Pass details"
                 android:id="@+id/previoustext"
                 android:textColor="#f7f7f7"
-                android:layout_below="@+id/phone_icon"/>
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
 
     <EditText
         android:id="@+id/ticketno"
@@ -37,7 +36,6 @@
         android:background="@color/white"
         android:hint="Enter Ticket number"
         android:padding="10dp"
-        android:singleLine="true"
         android:textColor="@color/input_login"
         android:textColorHint="@color/input_login_hint" />
 
@@ -182,25 +180,6 @@
             android:textColor="@color/input_login"
             android:textColorHint="@color/input_login_hint" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Don&apos;t have Previos Pass??"
-                android:id="@+id/textView12"
-                android:textColor="#f7f7f7"
-                android:layout_below="@+id/editText21"
-                android:layout_marginTop="31dp"
-                />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Click Here"
-                android:id="@+id/button7"
-                android:layout_below="@+id/textView12"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
 
             <TextView
                 android:layout_width="wrap_content"

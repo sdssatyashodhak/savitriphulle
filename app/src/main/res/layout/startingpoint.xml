@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Please choose your root"
+        android:text="Please choose your route"
         android:textColor="#ffffff"
         android:id="@+id/textView3"
         android:layout_marginTop="44dp"

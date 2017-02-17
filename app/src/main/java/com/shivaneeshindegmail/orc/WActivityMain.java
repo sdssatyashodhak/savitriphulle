@@ -40,7 +40,7 @@ public class WActivityMain extends AppCompatActivity{
 
         mFragmentManager = getSupportFragmentManager();
         mFragmentTransaction = mFragmentManager.beginTransaction();
-        mFragmentTransaction.replace(R.id.containerView,new Wrailwayform()).commit();
+        mFragmentTransaction.replace(R.id.containerView,new Profile()).commit();
         /**
          * Setup click events on the Navigation View Items.
          */

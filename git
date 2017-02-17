@@ -1,0 +1,7 @@
+git add .
+
+git commit -m "commit
+
+git remote add origin https://github.com/sdssatyashodhak/savitriphulle
+
+git push
